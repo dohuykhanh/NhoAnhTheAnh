@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+
+.mainHeader {
+    gap: 40px;
+    display: grid;
+    padding: 20px 90px;
+    grid-template-columns: auto auto auto;
+}
+
+:root {
+    --mainColor: #29335c;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+    --leftColor: #39597f;
+    /* background-color: orange; */
+}
+
+.left {
+    left: auto;
+    width: 250px;
+    height: fit-content;
+    background-color: var(--leftColor);
+    border-radius: 4%;
+    left: 50px;
+    top: 100px;
+}
+
+.mainContent {
+    justify-content: center;
+    display: flex;
+    color: var(--textColor);
+    position: relative;
+    bottom: 10px;
+    color: black;
+}
+
+.AddChiNhanh {
+    background-color: var(--leftColor);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    right: calc(20% - 100%);
+    border-radius: 3%;
+    margin-bottom: 20px;
+}
+
+.Hoverdieuhuong {
+    display: none;
+}
+
+.khanh1:hover+.Hoverdieuhuong {
+    display: unset;
+}

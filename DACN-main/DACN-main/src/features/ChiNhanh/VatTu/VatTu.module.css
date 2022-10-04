@@ -1,0 +1,36 @@
+:root {
+    --mainColor: #29335c;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+}
+
+.fs {
+    color: var(--mainColorLight);
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+
+.fx {
+    color: var(--mainColorLight);
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+
+.OnOff {
+    box-sizing: border-box;
+    width: auto;
+    background-color: var(--mainColorLight);
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.hd {
+    padding-left: 296px;
+}
+
+.fonthd {
+    color: var(--textColor);
+}

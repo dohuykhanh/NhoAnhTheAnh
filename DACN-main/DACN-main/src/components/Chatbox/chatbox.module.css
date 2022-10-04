@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+    
+}
+.chat{
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    align-items: center;
+    bottom: 0px;
+}
+.chatbox{
+    width: 298px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: 	#e5e5e5;
+    border-radius: 2% 2% 0% 2%;
+}
+
+
+
